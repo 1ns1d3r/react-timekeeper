@@ -186,7 +186,7 @@ export class Timepicker extends React.Component {
 					changeMeridiem={this.changeMeridiem}
 				/>
 				
-				{this.props.onDoneClick && <span style={styles.doneButton} onClick={this.props.onDoneClick}>Done</span> }
+				{this.props.onDoneClick && <span style={styles.doneButton} onClick={this.props.onDoneClick}>Listo</span> }
 			</StyleRoot>
 		)
 	}
